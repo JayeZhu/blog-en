@@ -60,4 +60,5 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+  { text: 'Chinese', link: 'https://jayezhu.dpdns.org/' },
 ]

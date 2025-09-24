@@ -54,7 +54,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://avatars.githubusercontent.com/u/37999818?s…00&u=701ab3310a71fd7fcac2913b452c5d94a26ce4b0&v=4',
     name: 'JayeZhu',
-    slogan: '种一棵树，最好的时间是十年前，其次是现在',
+    slogan: 'The best time to plant a tree was 10 years ago. The second best time is now.',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -62,7 +62,7 @@ module.exports = {
     icons: [
       {
         iconClass: 'icon-youjian',
-        title: '发邮件',
+        title: 'Email',
         link: 'mailto:1032657951@qq.com',
       },
       {
@@ -72,7 +72,7 @@ module.exports = {
       },
       {
         iconClass: 'icon-erji',
-        title: '听音乐',
+        title: 'Music',
         link: 'https://music.163.com/#/playlist?id=123357980',
       },
     ],
@@ -81,7 +81,7 @@ module.exports = {
     // 页脚信息
     createYear: 2019, // 博客创建年份
     copyrightInfo:
-      'JayeZhu | <a href="https://github.com/JayeZhu/blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'JayeZhu | <a href="https://github.com/JayeZhu/blog-en/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   // htmlModules // 插入hmtl(广告)模块
 }

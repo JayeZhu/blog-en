@@ -10,22 +10,22 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-echo 'jayezhu.dpdns.org' > CNAME
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  # githubUrl=git@github.com:jayezhu/blog.git
-  githubUrl=git@github.com:jayezhu/jayezhu.github.io.git
-else
-  msg='来自github actions的自动部署'
-  # githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
-  githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/jayezhu.github.io.git
-  git config --global user.name "JayeZhu"
-  git config --global user.email "1032657951@qq.com"
-fi
-git init
-git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github
+echo 'en.jayezhu.dpdns.org' > CNAME
+# if [ -z "$GITHUB_TOKEN" ]; then
+#   msg='deploy'
+#   # githubUrl=git@github.com:jayezhu/blog.git
+#   githubUrl=git@github.com:jayezhu/jayezhu.github.io.git
+# else
+#   msg='来自github actions的自动部署'
+#   # githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
+#   githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/jayezhu.github.io.git
+#   git config --global user.name "JayeZhu"
+#   git config --global user.email "1032657951@qq.com"
+# fi
+# git init
+# git add -A
+# git commit -m "${msg}"
+# git push -f $githubUrl master:gh-pages # 推送到github
 # git push -f https://github.com/JayeZhu/JayeZhu.github.io.git master
 
 # deploy to coding
