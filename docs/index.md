@@ -2,22 +2,22 @@
 home: true
 # heroImage: /img/web.png
 heroText: JayeZhu's blog
-tagline: 戒骄戒躁，稳步前行。
+tagline: Stay humble and make steady progress.
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 前端
-    details: JavaScript、ES6、Vue框架等前端技术
+  - title: Frontend
+    details: JavaScript, ES6, Vue framework and other frontend technologies.
     link: /fe/ # 可选
     imgUrl: /img/fe.png # 可选
-  - title: 后端
-    details: NodeJs、MongoDB等后端技术
+  - title: Backend
+    details: NodeJs, MongoDB and other backend technologies.
     link: /be/
     imgUrl: /img/be.png
-  - title: 技术
-    details: 技术文档、教程、技巧、总结等文章
+  - title: Technology
+    details: Technical documentation, tutorials, tips, summaries, and other articles.
     link: /technology/
     imgUrl: /img/technology.png
 
